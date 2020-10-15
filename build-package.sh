@@ -2,7 +2,7 @@
 
 build_template_package() {
     cd thehive-templates && zip -r ../report-templates.zip *
-    ls -la .
+    cd .. && ls -la .
 }
 
 build_template_package
